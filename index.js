@@ -21,13 +21,13 @@ if (hacker1.length > hacker2.length) {
 
 // Iteration 3: Loops
 // Iteration 3-1
-let driverNameUpperCase
+let driverNameUpperCase = ''
 for (let i = 0; i < hacker1.length; i++) {
   driverNameUpperCase += hacker1[i].toUpperCase() + ' '
 }
 console.log(driverNameUpperCase)
 // Iteration 3-2
-let driverNameUpperCase2
+let driverNameUpperCase2 = ''
 for (let i = hacker1.length - 1; i >= 0; i--) {
   driverNameUpperCase2 += hacker1[i] + ' '
 }
