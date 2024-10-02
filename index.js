@@ -45,6 +45,8 @@ for (let i = 0; i < minLength; i++) {
     console.log('Yo, the navigator goes first, definitely.')
 
     break
+  } else {
+    console.log('What?! You both have the same name?')
   }
 }
 
