@@ -28,8 +28,8 @@ for (let i = 0; i < hacker1.length; i++) {
 console.log(driverNameUpperCase)
 // Iteration 3-2
 let driverNameUpperCase2 = ''
-for (let i = hacker1.length - 1; i >= 0; i--) {
-  driverNameUpperCase2 += hacker1[i] + ' '
+for (let i = hacker2.length - 1; i >= 0; i--) {
+  driverNameUpperCase2 += hacker2[i] + ' '
 }
 console.log(driverNameUpperCase2)
 
